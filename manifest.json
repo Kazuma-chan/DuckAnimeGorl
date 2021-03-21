@@ -1,0 +1,20 @@
+{
+	"manifest_version": 3,
+	"name": "DuckAnimeGorl",
+	"version": "0.5",
+	
+	"action": {
+		"default_icon": "Duck.png",
+		"default_title": "test kazu"
+	},
+	"content_scripts": [
+		{
+			"matches": ["*://start.duckduckgo.com/*"],
+			"css": ["style_master.css"]
+		},
+		{
+			"matches": ["*://duckduckgo.com/*"],
+			"css": ["style_master.css"]
+		}
+	]
+}
