@@ -1,0 +1,20 @@
+.logo_homepage {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/logo_homepage.normal.v108.svg")
+}
+
+.dark-bg .logo_homepage {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/logo_homepage.alt.v108.svg") !important
+}
+
+/* .header__logo {
+    background-image: url("chrome-extension://fmdcdhhbicecifckgijkenmbhbmoppie/logo_header.v108.svg")
+}
+ */
+.dark-header .header__logo {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/logo_header.alt.v108.svg")
+}
+
+.body--html .logo_homepage {
+    background: no-repeat center url("chrome-extension://__MSG_@@extension_id__/logo_homepage.normal.v108.png");
+    background: no-repeat center/100% url("chrome-extension://__MSG_@@extension_id__/logo_homepage.normal.v108.svg"),linear-gradient(transparent, transparent)
+}

@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
 	"name": "DuckAnimeGorl",
-	"version": "0.5",
+	"version": "0.5.1",
 	
 	"action": {
 		"default_icon": "Duck.png",
@@ -10,11 +10,11 @@
 	"content_scripts": [
 		{
 			"matches": ["*://start.duckduckgo.com/*"],
-			"css": ["style_master.css"]
+			"js": ["style_injector.js"]
 		},
 		{
 			"matches": ["*://duckduckgo.com/*"],
-			"css": ["style_master.css"]
+			"js": ["style_injector.js"]
 		}
 	]
 }
